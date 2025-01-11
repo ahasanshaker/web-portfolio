@@ -12,15 +12,6 @@
 .textPrimary{
     color: rgb(253, 110, 10);
 }
-  
-/* Nav Styles */
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between ;
-    margin: 0 150px;
-}
-/* Shared Style */
 .btnPrimary{
     background-color: rgb(253, 110, 10);
     font-weight: bold;
@@ -30,6 +21,28 @@ nav{
     font-size: 20px;
     border: none;
 }
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+}
+.sectionDiscription{
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+    font-weight: 400;
+}
+.secondarBg{
+    background-color: rgb(255, 248, 243);
+}
+/* Nav Styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    margin: 0 150px;
+}
+
+
 .nav-tittle{
     font-weight: 800;
     font-size: 45px;
@@ -87,4 +100,31 @@ header{
 .bannerImage{
     width: 584px;
     height: 676px;
+}
+
+/* Main  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About Styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.aboutItems{
+    display: flex;
+    justify-content: space-around
+    
+}
+.itemTittle{
+    font-weight: 400px;
+    font-size: 20px;
+}
+.itemDescription{
+    font-weight: bold;
+    font-size: 20px;
+    row height: 30px;
 }
