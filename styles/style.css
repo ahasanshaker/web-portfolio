@@ -190,6 +190,7 @@ footer{
     padding: 130px 230px;
     display: flex;
     gap: 100px;
+    margin-top: 50px;
 }
 .footerColum{
     width: 50%;
