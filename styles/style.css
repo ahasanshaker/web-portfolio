@@ -214,9 +214,12 @@ footer input[type="text"], footer input[type="email"], footer textarea {
 /* Responsive Style */
 
 @media screen and (max-width:576px)  {
-    .skillCOntainer , .resumeContainer , footer , .aboutItems {
+    .skillCOntainer , .resumeContainer , footer , .aboutItems , .banner , nav , nav>ul{
         flex-direction: column;
         
+    }
+    nav>ul{
+        gap: 20px;
     }
     .skills{
         margin: 0px; 
@@ -230,7 +233,15 @@ footer input[type="text"], footer input[type="email"], footer textarea {
     .footerColum{
         width: 90%;
     }
-     
+    .banner{
+        margin: auto;
+    }
+    header{
+        background-image: none;
+    }
+    .bannerImage{
+        width: 100%;
+    }
     
 }
 
